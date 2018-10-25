@@ -211,7 +211,7 @@ tagFilter.addEventListener('click', tagFilterToggle, false);
 tagItem.addEventListener('click', tagItemFilter, false);
 addproductItem.addEventListener('click', coverToggle, false);
 closeCover.addEventListener('click', coverToggle, false);
-// addproductEd.addEventListener('click', coverToggle, false);
+// addproductEd.addEventListener('click', coverToggle, false);/*---新增商品按鈕事件---*/
 updateImg.addEventListener('change', function (e) {
     //照片區
     var files = e.target.files;

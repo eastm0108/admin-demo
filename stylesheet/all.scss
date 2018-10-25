@@ -287,6 +287,9 @@ input[type="checkbox"]{
     background-color: $dark;
     color: $brighter;
 }
+#editBtn{
+    // cursor: no-drop;
+}
 //PRODUCT頁面
 /*---tag提示按鈕---*/ /*--通用類別--*/
 .tagFilterPrompt{
@@ -468,7 +471,7 @@ input[type="checkbox"]{
     }
 }
 .addProductPage-addBtn{
-    cursor: pointer;
+    cursor: no-drop;
     background-color:$dark ;
     color: $brighter;
     width: 100%;

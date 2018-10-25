@@ -11768,7 +11768,7 @@ input[type="checkbox"] {
 }
 
 .addProductPage-addBtn {
-  cursor: pointer;
+  cursor: no-drop;
   background-color: #000000;
   color: #FFFFFF;
   width: 100%;
